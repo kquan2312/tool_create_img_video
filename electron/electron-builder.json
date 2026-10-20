@@ -1,0 +1,28 @@
+{
+  "appId": "com.dgtauto.videogen",
+  "productName": "DGT Auto Generate Video AI",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*",
+    "outputs/**/*",
+    "server.js"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "DGT Auto Video AI"
+  }
+}

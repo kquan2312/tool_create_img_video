@@ -1,0 +1,6 @@
+{
+  "name": "DGT Auto Generate Video AI",
+  "description": "Desktop AI workstation for automated batch image generation, image editing, and Veo video creation with queue management and multi-provider integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
